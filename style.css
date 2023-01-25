@@ -1,0 +1,392 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-repeat: no-repeat;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navlist {
+    list-style: none;
+    margin-left: 30px;
+    text-align: center;
+    padding: 5px;
+  
+    margin-top: 10px;
+}
+.anav:hover{
+color: white;
+}
+
+.anav {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    text-decoration: none;
+    color: rgb(160, 156, 156);
+}
+.anav:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.anav:hover::after{
+    width: 100%; 
+  left: 0; 
+}
+img {
+
+    margin-top: 13px;
+}
+
+.mainimg {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 700px;
+}
+
+.icon1 {
+    margin-top: 2px;
+}
+
+.icon2 {
+    margin-top: -2px;
+}
+
+.txt {
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+    margin-left: 30%;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+
+
+.sndimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.stimg {
+    display: flex;
+    justify-content: center;
+}
+
+.txt2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+}
+
+.a2 {
+    position: absolute;
+    margin: 210px;
+    font-size: 24px;
+    margin-left: 72px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.a2:hover{
+    text-decoration: underline;
+     color: #2997ff;
+}
+.a7:hover{
+    text-decoration: underline;
+     color: #2997ff;
+}
+.a7 {
+    position: absolute;
+ margin: 210px;
+    font-size: 24px;
+    margin-left: 320px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+#less {
+    font-size: 15px;
+}
+
+#font {
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+
+}
+
+#font2 {
+    font-size: 20px;
+    position: absolute;
+    color: rgb(122, 122, 122);
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.alas {
+    position: absolute;
+   margin-top: 230px;
+    font-size: 20px;
+    margin-left: -100px;
+    text-decoration: none;
+    color: #2997ff;
+   
+}
+.alas:hover{
+    text-decoration: underline;
+    color: #2997ff;
+}
+.alast:hover{
+    text-decoration: underline;
+    color: #2997ff;
+}
+
+.alast {
+    position: absolute;
+    margin-top: 230px;
+    font-size: 20px;
+    margin-left: 150px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.boximg {
+    background-color: black;
+    width: 45%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    height: 609px;
+    float: left;
+}
+
+.mainimg2 {
+    margin-top: 220px;
+    padding: 10px;
+    width: 105%;
+    height: 500px;
+}
+
+.mainimg3 {
+    margin-top: 220px;
+    padding: 10px;
+    width: 105%;
+    height: 400px;
+}
+
+
+.mainimg4 {
+    margin-top: 220px;
+    margin-left: 10px;
+    width: 50%;
+    height: 400px;
+}
+
+.mainimg5 {
+    margin-top: 220px;
+    margin-left: 10px;
+    width: 50%;
+    height: 400px;
+}
+
+.txt3 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+#fontmain {
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#font3 {
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+
+}
+
+.box2img {
+    background-color: black;
+    width: 45%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    height: 609px;
+    float: left;
+
+}
+
+#fonmain {
+    font-size: 20px;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#font4 {
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 35px;
+
+}
+
+.alast2 {
+    position: absolute;
+   margin: 140px;
+    font-size: 20px;
+    margin-left: 120px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.alast1 {
+    position: absolute;
+    margin: 140px;
+    font-size: 20px;
+    margin-left:100px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.alast1:hover {
+    text-decoration: underline;
+     color: #2997ff;
+}
+.alast2:hover {
+    text-decoration: underline;
+     color: #2997ff;
+}
+footer{
+height:800px;
+width: 100%;
+display: flex;
+padding: 0px;
+margin: 0px;
+align-items: flex-end;
+background-color: rgba(0, 0, 0, 0.10);
+}
+.border{
+    margin-top: 30px;
+margin-left:200px ;
+    border-top:2px solid rgb(156, 156, 156) ;
+   align-self: flex-start;
+   border-bottom:2px solid rgb(156, 156, 156) ;
+   height: 90%;
+   display: flex;
+  
+   width:70% ;
+}
+.fotlist{
+    list-style-type: none;
+    line-height: 35px;
+    margin-left: -30px;
+    font-size: 14px;
+    color:rgb(105, 105, 105);
+  
+  
+}
+.fotlist:hover{
+    text-decoration: underline;
+    color:rgb(105, 105, 105);
+    cursor: pointer;
+}
+.fothed{
+     margin-left: -30px;
+    list-style-type: none;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+}
+.fotpart{
+    margin-left: 50px;
+}
+#intro{
+    align-self: flex-end;
+    margin-left:-960px ;  
+    color: rgb(94, 93, 93);
+}
+#intro:hover{
+    text-decoration:underline;
+    color:rgb(105, 105, 105);
+}
+.endfot{
+padding: 20px;
+margin-left: -1020px;
+}
+.enda{
+    display: inline-block;
+    color: rgb(155, 155, 155);
+ margin-left:20px;
+ font-size:14px ;
+ border-left: 1px solid gray;
+ height: 20px;
+ text-decoration: none;
+}
+.enda:hover{
+    text-decoration:underline;
+    color:rgb(105, 105, 105);
+}
+.enda1{
+    display: inline-block;
+    color: rgb(94, 93, 93);
+ margin-left:20px;
+ font-size:14px ;
+ height: 20px;
+ 
+}
+.enda3{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+ margin-left:150px;
+ font-size:14px ;
+ height: 20px;
+}
+.enda3:hover{
+    text-decoration:underline;
+    color:rgb(105, 105, 105);
+}
